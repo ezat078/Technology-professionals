@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="Technology professionals" data-ar="المتخصصون في التكنولوجيا">Technology professionals</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+
+  <!-- Preload Section -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text" data-en="Loading" data-ar="جاري التحميل">Loading</p>
+  </div>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <a href="Home.html"><img src="image/logo.png" alt="logo"></a>
+    </div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar-container">
+      <nav class="navbar">
+        <a href="#home" data-en="home" data-ar="الرئيسية">home</a>
+        <li class="dropdown">
+            <a href="#Specialties" data-en="Specialties" data-ar="التخصصات">Specialties</a>
+            <ul class="dropdown-menu">
+              <li><a href="Cybersecurity.html" data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</a></li>
+              <li><a href="Information Systems Management.html" data-en="Information Systems Management" data-ar="إدارة نظم المعلومات">Information Systems Management</a></li>
+              <li><a href="Network Management.html" data-en="Network Management" data-ar="إدارة الشبكات">Network Management</a></li>
+              <li><a href="Web Development.html" data-en="Web Development" data-ar="تطوير الويب">Web Development</a></li>
+              <li><a href="Artificial Intelligence.html" data-en="Artificial Intelligence" data-ar="الذكاء الاصطناعي">Artificial Intelligence</a></li>
+              <li><a href="Data Analytics.html" data-en="Data Analytics" data-ar="تحليل البيانات">Data Analytics</a></li>
+              <li><a href="Software Development.html" data-en="Software Development" data-ar="تطوير البرمجيات">Software Development</a></li>
+              <li><a href="Mobile App Development.html" data-en="Mobile App Development" data-ar="تطوير تطبيقات الهاتف المحمول">Mobile App Development</a></li>
+            </ul>
+          </li>
+        <a href="#about us" data-en="about us" data-ar="معلومات عنا">about us</a>
+        <a href="#contact us" data-en="contact us" data-ar="تواصل معنا">contact us</a>
+      </nav>
+    </nav>
+
+    <div class="header-right">
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+      <div class="language-toggle">
+        <button class="lang-button left en active" onclick="toggleLanguage('en')">EN</button>
+        <button class="lang-button right ar" onclick="toggleLanguage('ar')">AR</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Background Video Section -->
+  <video class="background-video" autoplay muted loop>
+    <source src="Video/backgraund.mp4" type="video/mp4">
+  </video>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3 data-en="Information Technology" data-ar="تكنولوجيا المعلومات">Information Technology</h3>
+      <p data-en="Information Technology is a fundamental pillar of the modern digital era, contributing to various sectors such as education, healthcare, and business. This field focuses on developing digital systems, managing data, and enhancing information security, with the aim of improving efficiency and delivering innovative technological solutions that keep pace with rapid advancements." 
+         data-ar="تُعد تكنولوجيا المعلومات ركيزة أساسية في العصر الرقمي الحديث، حيث تسهم في العديد من القطاعات مثل التعليم والرعاية الصحية والأعمال. يركز هذا المجال على تطوير الأنظمة الرقمية، وإدارة البيانات، وتعزيز أمان المعلومات، بهدف تحسين الكفاءة وتقديم حلول تكنولوجية مبتكرة تواكب التطورات السريعة.">
+        Information Technology is a fundamental pillar...
+      </p>
+      <a href="#Specialties" class="btn" data-en="Specialties" data-ar="التخصصات">Specialties</a>
+    </div>
+  </section>
+
+  <!-- Specialties Section -->
+  <section class="upcoming-trips" id="Specialties">
+    <h2 class="ggg" data-en="Specialties" data-ar="التخصصات">Specialties</h2>
+
+    <div class="content">
+      <!-- Cybersecurity -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/cyber security.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</span> 
+            <a href="Cybersecurity.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <!-- Information Systems Management -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/Information systems management.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Information Systems Management" data-ar="إدارة نظم المعلومات">Information Systems Management</span> 
+            <a href="Information systems management.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <!-- Network Management -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/Network management.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Network Management" data-ar="إدارة الشبكات">Network Management</span> 
+            <a href="Network Management.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <!-- Web Development -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/Web development.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Web Development" data-ar="تطوير الويب">Web Development</span> 
+            <a href="Web Development.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <!-- Artificial Intelligence -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/Artificial Intelligence.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Artificial Intelligence" data-ar="الذكاء الاصطناعي">Artificial Intelligence</span> 
+            <a href="Artificial Intelligence.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <!-- Data Analytics -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/Data analytics.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Data Analytics" data-ar="تحليل البيانات">Data Analytics</span> 
+            <a href="Data Analytics.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <!-- Software Development -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/Software Development.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Software Development" data-ar="تطوير البرمجيات">Software Development</span> 
+            <a href="Software Development.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <!-- Mobile App Development -->
+      <div class="upcoming-trips-card">
+        <div class="upcoming-trips-image">
+          <img src="image/Mobile application development.jpg" />
+        </div>
+        <div class="upcoming-trips-info">
+          <p class="upcoming-trips-category" data-en="IT" data-ar="تكنولوجيا المعلومات">IT</p>
+          <strong class="upcoming-trips-title">
+            <span data-en="Mobile App Development" data-ar="تطوير تطبيقات الهاتف المحمول">Mobile App Development</span> 
+            <a href="Mobile App Development.html" class="more-details" data-en="More details" data-ar="المزيد من التفاصيل">More details</a>
+          </strong>
+        </div>
+      </div>
+
+      <h2 class="ggg2" data-en="Upcoming trips" data-ar="الرحلات القادمة">Upcoming trips</h2>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="services" id="about us">
+    <h1 class="heading" data-en="About Us" data-ar="معلومات عنا">About Us</h1>
+
+    <div class="row">
+      <div class="image">
+        <img src="image/logo About us.jpg" alt="">
+      </div>
+
+      <div class="content">
+        <h3 data-en="Technology professionals" data-ar="المتخصصون في التكنولوجيا">Technology professionals</h3>
+        <p data-en="We are a team of four creative individuals, united by our passion for the world of technology and our goal of providing valuable information to students about the distinguished academic specialties in this field. We designed this website to be a comprehensive reference that helps students discover the technological specialties they can pursue, offering detailed information to support informed academic decisions. We are here to empower the next generation of tech professionals to take the right steps toward their future careers." 
+           data-ar="نحن فريق مكوّن من أربعة أفراد مبدعين، يجمعنا الشغف بعالم التكنولوجيا وهدفنا هو تقديم معلومات قيّمة للطلاب حول التخصصات الأكاديمية المتميزة في هذا المجال. صممنا هذا الموقع ليكون مرجعاً شاملاً يساعد الطلاب على اكتشاف التخصصات التكنولوجية التي يمكنهم الالتحاق بها، من خلال تقديم معلومات تفصيلية تدعم اتخاذ قرارات أكاديمية مستنيرة. نحن هنا لتمكين الجيل القادم من محترفي التكنولوجيا لاتخاذ الخطوات الصحيحة نحو مستقبلهم المهني.">
+          We are a team of four creative individuals...
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="contact us">
+    <h2 data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h2>
+    <p data-en="We are here to answer all your inquiries and assist you at any time. If you have any questions or comments regarding the website or the academic specialties we offer, feel free to get in touch with us. Our team is always ready to provide support and respond to your inquiries. You can contact us via email or through the contact form below, and we will get back to you as soon as possible."
+       data-ar="نحن هنا للإجابة على جميع استفساراتك ومساعدتك في أي وقت. إذا كان لديك أي أسئلة أو تعليقات بخصوص الموقع أو التخصصات الأكاديمية التي نقدمها، فلا تتردد في التواصل معنا. فريقنا دائمًا على استعداد لتقديم الدعم والرد على استفساراتك. يمكنك التواصل معنا عبر البريد الإلكتروني أو من خلال نموذج الاتصال أدناه، وسنرد عليك في أقرب وقت ممكن.">
+      We are here to answer all your inquiries...
+    </p>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/1AiHBmK4xs/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/technology_professionals" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://youtube.com/@technology_professionals_2008?si=_H78MZqi2QurEKVi" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=technology.professionals.2008@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="contact-info">
+      <p><i class="fas fa-map-marker-alt"></i> Main street 65, NY, NY</p>
+      <p><i class="fas fa-phone"></i> 0164689574165</p>
+      <p><i class="fas fa-user"></i> Technology professionals</p>
+      <p><i class="fas fa-bell"></i> Subscribe</p>
+    </div>
+  </footer>
+
+  <script src="JavaScript/script.js" defer></script>
+
+</body>
+</html>

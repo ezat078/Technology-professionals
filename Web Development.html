@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="Technology professionals" data-ar="المتخصصون في التكنولوجيا">Technology professionals</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+    <!-- Preload Section -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text" data-en="Loading" data-ar="جاري التحميل">Loading</p>
+  </div>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <a href="Home.html"><img src="image/logo.png" alt="logo"></a>
+    </div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar-container">
+        <nav class="navbar">
+          <a href="Home.html#home" data-en="home" data-ar="الرئيسية">home</a>
+          <li class="dropdown">
+              <a href="Home.html#Specialties" data-en="Specialties" data-ar="التخصصات">Specialties</a>
+              <ul class="dropdown-menu">
+                <li><a href="Cybersecurity.html" data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</a></li>
+                <li><a href="Information Systems Management.html" data-en="Information Systems Management" data-ar="إدارة نظم المعلومات">Information Systems Management</a></li>
+                <li><a href="Network Management.html" data-en="Network Management" data-ar="إدارة الشبكات">Network Management</a></li>
+                <li><a href="Web Development.html" data-en="Web Development" data-ar="تطوير الويب">Web Development</a></li>
+                <li><a href="Artificial Intelligence.html" data-en="Artificial Intelligence" data-ar="الذكاء الاصطناعي">Artificial Intelligence</a></li>
+                <li><a href="Data Analytics.html" data-en="Data Analytics" data-ar="تحليل البيانات">Data Analytics</a></li>
+                <li><a href="Software Development.html" data-en="Software Development" data-ar="تطوير البرمجيات">Software Development</a></li>
+                <li><a href="Mobile App Development.html" data-en="Mobile App Development" data-ar="تطوير تطبيقات الهاتف المحمول">Mobile App Development</a></li>
+              </ul>
+            </li>
+          <a href="Home.html#about us" data-en="about us" data-ar="معلومات عنا">about us</a>
+          <a href="#contact us" data-en="contact us" data-ar="تواصل معنا">contact us</a>
+        </nav>
+    </nav>
+
+    <div class="header-right">
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+      <div class="language-toggle">
+        <button class="lang-button left en active" onclick="toggleLanguage('en')">EN</button>
+        <button class="lang-button right ar" onclick="toggleLanguage('ar')">AR</button>
+      </div>
+    </div>
+  </header>
+
+
+<!-- Background Video Section -->
+<video class="background-video" autoplay muted loop>
+    <source src="Video/Web development.mp4" type="video/mp4">
+  </video>
+
+  <!-- بداية قسم المحتوى فوق الخلفية -->
+  <section class="intro-text">
+    <div class="content">
+      <h3 data-en="Web Development" data-ar="تطوير الويب">Web Development</h3>
+      <p data-en="Web Development is the field focused on creating, designing, and maintaining websites on the internet. It involves building interactive user interfaces, programming servers, and managing databases to ensure websites function smoothly and efficiently. Web developers strive to deliver high-performance, visually appealing digital experiences that meet the needs of users and businesses"
+         data-ar="تطوير الويب هو مجال يهتم بإنشاء وتصميم وصيانة المواقع الإلكترونية على الإنترنت. يشمل هذا المجال تطوير واجهات المستخدم التفاعلية، وبرمجة الخوادم، وإدارة قواعد البيانات لضمان عمل المواقع بشكل سلس وفعال. يعمل مطورو الويب على تقديم تجارب رقمية متميزة تجمع بين الأداء العالي والتصميم الجذاب لتلبية احتياجات المستخدمين والشركات">
+         Web Development focuses on building websites and web applications, from front-end design to back-end programming, delivering excellent user experiences.
+      </p>
+    </div>
+  </section>
+  
+
+  <section class="video-section">
+    <h2 data-en="Web Development Video Overview" data-ar="نظرة عامة على الفيديو لتطوير الويب">Web Development Video Overview</h2>
+    <div class="video-container">
+      <iframe 
+        width="100%" 
+        height="500" 
+        src="https://www.youtube.com/embed/Tef1e9FiSR0" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="video-description">
+      <p data-en="Watch this video to learn about the key concepts and techniques in web development." 
+         data-ar="شاهد هذا الفيديو لتتعرف على المفاهيم الأساسية والتقنيات في تطوير الويب.">
+         Watch this video to learn about the key concepts and techniques in web development.
+      </p>
+    </div>
+  </section>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="info-section">
+    <h2 data-en="Web Development Details" data-ar="تفاصيل تطوير الويب">Web Development Details</h2>
+  
+    <div class="info-cards">
+  
+      <div class="card">
+        <h3 data-en="Required Skills" data-ar="المهارات المطلوبة">Required Skills</h3>
+        <p data-en="HTML, CSS, JavaScript, Responsive Design, Version Control, Problem-solving, Web Frameworks (e.g., React, Angular)"
+           data-ar="HTML، CSS، JavaScript، التصميم المتجاوب، التحكم في الإصدارات، حل المشكلات، أطر العمل الخاصة بالويب (مثل React و Angular)">
+           HTML, CSS, JavaScript, Responsive Design, Version Control, Problem-solving, Web Frameworks (e.g., React, Angular)
+        </p>
+        <div class="extra" data-en="Mastering front-end and back-end technologies is essential for full-stack development."
+             data-ar="إتقان تقنيات الواجهة الأمامية والخلفية أمر أساسي لتطوير الويب الكامل.">
+          Mastering front-end and back-end technologies is essential for full-stack development.
+        </div>
+      </div>
+  
+      <div class="card">
+        <h3 data-en="Career Opportunities" data-ar="فرص العمل">Career Opportunities</h3>
+        <p data-en="Web Developer, Front-end Developer, Back-end Developer, Full Stack Developer, Web Designer, UI/UX Developer"
+           data-ar="مطور ويب، مطور واجهة أمامية، مطور واجهة خلفية، مطور ويب كامل، مصمم ويب، مطور واجهات المستخدم/تجربة المستخدم">
+           Web Developer, Front-end Developer, Back-end Developer, Full Stack Developer, Web Designer, UI/UX Developer
+        </p>
+        <div class="extra" data-en="The demand for web developers continues to rise globally."
+             data-ar="الطلب على مطوري الويب يستمر في الزيادة عالميًا.">
+          The demand for web developers continues to rise globally.
+        </div>
+      </div>
+  
+      <div class="card">
+        <h3 data-en="Common Tools" data-ar="الأدوات الشائعة">Common Tools</h3>
+        <p data-en="Git, GitHub, Visual Studio Code, Sublime Text, Bootstrap, React, Angular, Node.js"
+           data-ar="Git، GitHub، Visual Studio Code، Sublime Text، Bootstrap، React، Angular، Node.js">
+           Git, GitHub, Visual Studio Code, Sublime Text, Bootstrap, React, Angular, Node.js
+        </p>
+        <div class="extra" data-en="Tools like React and Angular are essential for modern web development."
+             data-ar="أدوات مثل React و Angular ضرورية لتطوير الويب الحديث.">
+          Tools like React and Angular are essential for modern web development.
+        </div>
+      </div>
+  
+      <div class="card">
+        <h3 data-en="Common Challenges" data-ar="التحديات الشائعة">Common Challenges</h3>
+        <p data-en="Cross-browser compatibility, responsive design, debugging, security, performance optimization"
+           data-ar="التوافق عبر المتصفحات، التصميم المتجاوب، تصحيح الأخطاء، الأمان، تحسين الأداء">
+           Cross-browser compatibility, responsive design, debugging, security, performance optimization
+        </p>
+        <div class="extra" data-en="Keeping up with constantly changing web technologies can be challenging."
+             data-ar="مواكبة التقنيات المتغيرة باستمرار في الويب يمكن أن يكون تحديًا.">
+          Keeping up with constantly changing web technologies can be challenging.
+        </div>
+      </div>
+  
+      <div class="card">
+        <h3 data-en="Popular Certifications" data-ar="الشهادات المعروفة">Popular Certifications</h3>
+        <p data-en="Certified Web Developer, Front-End Developer Nanodegree, Full Stack Web Developer Certificate"
+           data-ar="مطور ويب معتمد، درجة النانو لمطور الواجهة الأمامية، شهادة مطور ويب كامل">
+           Certified Web Developer, Front-End Developer Nanodegree, Full Stack Web Developer Certificate
+        </p>
+        <div class="extra" data-en="Certifications help prove your skills and improve career prospects."
+             data-ar="الشهادات تساعد في إثبات مهاراتك وتحسين فرصك المهنية.">
+          Certifications help prove your skills and improve career prospects.
+        </div>
+      </div>
+  
+      <div class="card">
+        <h3 data-en="Work Environments" data-ar="بيئة العمل">Work Environments</h3>
+        <p data-en="Tech Companies, Startups, Freelance, Agencies, IT Departments"
+           data-ar="شركات التكنولوجيا، الشركات الناشئة، العمل الحر، الوكالات، أقسام تكنولوجيا المعلومات">
+           Tech Companies, Startups, Freelance, Agencies, IT Departments
+        </p>
+        <div class="extra" data-en="Web development is in demand across various industries."
+             data-ar="تطوير الويب مطلوب عبر مختلف الصناعات.">
+          Web development is in demand across various industries.
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="resources-section">
+    <h2 data-en="Web Development Resources" data-ar="مصادر تطوير الويب">Web Development Resources</h2>
+  
+    <div class="resources-cards">
+  
+      <div class="resource-card show" style="background-image: url('https://cdn-icons-png.flaticon.com/512/3135/3135763.png');">
+        <h3 data-en="Free Web Development Course" data-ar="دورة مجانية في تطوير الويب">Free Web Development Course</h3>
+        <a href="https://www.coursera.org/learn/web-development" target="_blank" data-en="Access Course" data-ar="الوصول إلى الدورة">Access Course</a>
+      </div>
+  
+      <div class="resource-card show" style="background-image: url('https://cdn-icons-png.flaticon.com/512/337/337946.png');">
+        <h3 data-en="Best Web Development Book (PDF)" data-ar="أفضل كتاب لتطوير الويب (PDF)">Best Web Development Book (PDF)</h3>
+        <a href="https://www.pdfdrive.com/web-development-books.html" target="_blank" data-en="Download Book" data-ar="تحميل الكتاب">Download Book</a>
+      </div>
+  
+      
+  
+    </div>
+  </section>
+  
+
+
+  <footer class="footer" id="contact us">
+    <h2 data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h2>
+    <p data-en="We are here to answer all your inquiries and assist you at any time. If you have any questions or comments regarding the website or the academic specialties we offer, feel free to get in touch with us. Our team is always ready to provide support and respond to your inquiries. You can contact us via email or through the contact form below, and we will get back to you as soon as possible."
+       data-ar="نحن هنا للإجابة على جميع استفساراتك ومساعدتك في أي وقت. إذا كان لديك أي أسئلة أو تعليقات بخصوص الموقع أو التخصصات الأكاديمية التي نقدمها، فلا تتردد في التواصل معنا. فريقنا دائمًا على استعداد لتقديم الدعم والرد على استفساراتك. يمكنك التواصل معنا عبر البريد الإلكتروني أو من خلال نموذج الاتصال أدناه، وسنرد عليك في أقرب وقت ممكن.">
+      We are here to answer all your inquiries...
+    </p>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/1AiHBmK4xs/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/technology_professionals" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://youtube.com/@technology_professionals_2008?si=_H78MZqi2QurEKVi" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=technology.professionals.2008@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="contact-info">
+      <p><i class="fas fa-map-marker-alt"></i> Main street 65, NY, NY</p>
+      <p><i class="fas fa-phone"></i> 0164689574165</p>
+      <p><i class="fas fa-user"></i> Technology professionals</p>
+      <p><i class="fas fa-bell"></i> Subscribe</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="JavaScript/script.js" defer></script>
+
+</body>
+</html>
